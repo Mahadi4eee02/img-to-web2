@@ -1,0 +1,555 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*-----Header Section------*/
+
+.container{
+	width: 1140px;
+	margin: 0 auto;	
+}
+
+header {
+    width: 100%;
+    float: left;
+    background-color: #87509C;
+    padding: 15px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.menu{width: 70%;
+	float: left;
+
+}
+.menu nav {
+
+}
+.menu nav ul {
+    list-style: none;
+    padding: 0px 100px;
+}
+.menu nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+ }
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.banner {
+    margin: 0px auto;
+    padding: 100px 236px 62px;
+}
+.banner h2 {
+    padding: 5px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.banner .btn {
+    /* display: inline-block; */
+    /* margin: 0px auto; */
+    padding: 10px 8px;
+    margin: 10px 250px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    background: #EB7D4B;
+    box-shadow: 1px 3px 5px #eb7d4b;
+}
+
+	/*-----service Section------*/
+
+.service{
+	width: 100%;
+	float: left;
+	background-color: #17C2A4;
+	padding: 25px 0px;
+}
+.service-heding {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-heding h2{
+	text-transform: capitalize;
+}
+
+.service-heding span {
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+}
+
+.service-heding p{
+	margin-bottom: 20px;
+}
+
+.service-body{
+	color: white;
+	width: 25%;
+	float: left;
+
+}
+.service-body img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.service-body h2 {
+    text-transform: capitalize;
+    margin: 10px;
+    text-align: center;
+}
+
+.service-body p {
+    padding: 0px 34px;
+    text-align: center;
+}
+
+/*-----team Section------*/
+
+.team{
+	width: 100%;
+	float: left;
+	background-color: #D3D3D3;
+	padding: 25px 0px;
+}
+.team-heding {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.team-heding h2{
+	text-transform: capitalize;
+}
+
+.team-heding span {
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+}
+
+.team-heding p{
+	margin-bottom: 20px;
+}
+
+.team-body{
+	width: 25%;
+	float: left;
+
+}
+.team-body img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.team-body h2 {
+    text-transform: capitalize;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.team-body h4 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.team-body p {
+    padding: 0px 34px;
+    text-align: center;
+}
+
+.team-body ul{
+	list-style: none;
+}
+
+.team-body li {
+    display: inline-block;
+    margin: 5px 13px;
+    padding: 0PX;
+}
+
+.team-body a{
+
+}
+
+.team-body .fa.fa-facebook{
+	background: #0574E7;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+
+.team-body .fa.fa-twitter{
+	background: #1D9BF0;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.team-body .fa.fa-linkedin{
+	background: #0077B5;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.team-body .fa.fa-envelope-o{
+	background: #0574E7;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+/*-----skill Section------*/
+
+.skill{
+    width: 100%;
+    float: left;
+    background-color: red;
+    padding: 25px 0px;
+}
+.skill-heding {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.skill-heding h2{
+    text-transform: capitalize;
+}
+
+.skill-heding span {
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+}
+
+.skill-heding p{
+    margin-bottom: 20px;
+}
+
+.skill-body{
+    color: black;
+    width: 25%;
+    float: left;
+
+}
+.skill-body img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.skill-body h2 {
+    text-transform: capitalize;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/*-----Portfolio Sectio------*/
+
+.portfolio {width: 100%;
+    float: left;
+    background-color: #FFDD99;
+    padding: 25px 0px;}
+    
+
+.portfolio-heading{
+    width: 100%;
+    
+}
+
+.portfolio-heading h2 {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.portfolio-heading span {
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+}
+
+.portfolio-heading p {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.portfolio-upbtn{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-upbtn ul {
+    list-style: none;
+}
+
+.portfolio-upbtn li {
+    display: inline-block;
+    margin-bottom: 25px;
+    }
+
+.portfolio-upbtn a {
+    text-decoration: none;
+    color: #9c8965;
+    background-color: wheat;
+    text-transform: uppercase;
+    padding: 0px 25px;
+    margin: 0px 10px;
+}
+
+.portfolio-body{
+    width: 50%;
+    float: left;
+}
+
+.portfolio-body img {    
+    margin: 0 auto;
+    display: block;
+}
+
+.portfolio-body h2 {}
+
+.portfolio-dwbtn {
+    margin: 20px auto;
+    padding-left: 44%;
+    text-align: center;
+    display: inline-block;
+}
+
+.portfolio-dwbtn button {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #30D0C1;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 0px 10px;
+    box-shadow: 1px 5px 3px #30d0c1;
+}
+
+
+/*-----aboutus Section------*/
+
+
+.aboutus{
+    width: 100%;
+    float: left;
+    background-color: #D74680;
+    padding: 25px 0px;
+
+}
+
+.aboutus-heading{
+    width: 100%;
+    
+}
+
+.aboutus-heading h2{
+    argin: 0 auto;
+    text-align: center;
+    text-transform: capitalize
+
+}
+.aboutus-heading span{
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+
+}
+.aboutus-heading p{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+
+}
+
+.aboutus-body{
+    width: 50%;
+    float: left;
+
+}
+
+.boutus-body-img{
+    width: 30%;
+    float: left;
+
+}
+
+.boutus-body-img img {
+    display: block;
+    margin: 10px 0px;
+}
+
+.boutus-body-para{
+    width: 70%;
+    float: left;
+
+}
+
+.boutus-body-para p {
+    margin: 0 auto;
+    display: block;
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.boutus-body-para h2 {
+    text-transform: uppercase;
+    color: white;
+    margin: 0px 10px;
+}
+
+.boutus-body-para h4 {
+    text-transform: capitalize;
+    color: yellow;
+    padding: 0px 10px;
+}
+
+/*--------Get In Touch-------*/
+
+.touch{
+    width: 100%;
+    float: left;
+    background-color: #3C5499;
+    padding: 25px 0px;
+
+}
+
+.touch-heading{
+    width: 100%;
+    margin: 0px auto;
+    
+}
+
+.touch-heading h2{
+    argin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+}
+.touch-heading span{
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+
+}
+.touch-heading p{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.form-control {
+    margin: 0% 20%;
+    display: inline-block;
+}
+
+.form-control input {
+    padding: 10px 40px;
+    margin: 0px 20px;
+    background-color: #0D3252;
+    border: none;
+}
+
+.text-box {
+    margin: 2px 8%;
+}
+
+.text-box input {
+    margin: 16px 16%;
+    padding: 54px 190px;
+    text-align-last: center;
+    border: none;
+    background-color: #0D3252;
+}
+
+
+
+.touch-btn {
+    margin: 20px auto;
+    padding-left: 44%;
+    text-align: center;
+    display: inline-block;
+}
+
+.touch-btn button {
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #30D0C1;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    margin: 0px 10px;
+    box-shadow: 1px 5px 3px #30d0c1;
+}
+
+
+
+
+/*--------footer menu-------*/
+
+
+footer {
+    width: 100%;
+    float: left;
+    background-color: blue;
+    padding: 15px;
+}
+
+.foooter-menu{}
+
+.foooter-menu nav {
+
+}
+.foooter-menu ul {
+    list-style: none;
+    padding: 0px 100px;
+}
+.foooter-menu nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+ }
+
+.foooter-menu nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
